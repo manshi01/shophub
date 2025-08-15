@@ -115,6 +115,8 @@ export default function Homepage() {
                 index === currentBanner ? 'translate-x-0' : 
                 index < currentBanner ? '-translate-x-full' : 'translate-x-full'
               }`}
+
+              
             >
               <div className={`h-full ${banner.bg} flex items-center justify-center text-white`}>
                 <div className="text-center">
